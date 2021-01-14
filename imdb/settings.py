@@ -12,9 +12,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = ')1h_85yj)n_(ap0p1%-yozk%9$&2da-lm0sy*mmlj$@q--x^0)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://premtamang.pythonanywhere.com/','premtamang.pythonanywhere.com',]
 
 
 # Application definition
