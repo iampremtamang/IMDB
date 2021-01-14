@@ -116,3 +116,7 @@ STATICFILES_DIRS = [
 ]
 
 
+try:
+    from .local_settings import *
+except ImportError:
+    print("I think you are in production mode. You are live!")
